@@ -260,10 +260,43 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.About-item .i {
+.About-item i {
     margin: 10px;
+    margin-left: 40%;
     font-size: 24px;
+
+
+}
+.About-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     justify-content: center;
+    text-align: center;
+
+}
+.About-item hr {
+    width: 50px;
+    border: 2px solid var(--primary-color);
+    margin: 10px auto;
+
+}
+.About-item p {
+    font-size: 1rem;
+    text-align: center;
+}
+.About-item:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    background-color: var(--primary-color);
+}
+.About-item:hover i,
+.About-item:hover h2,
+.About-item:hover p {
+    color: #fff;
+}
+.About-item:hover hr {
+    border-color: #fff;
 }
 /* News */
 
