@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="Style2.css">
     
@@ -114,23 +115,46 @@
         <div class="container-small">
             <h2 class="Our-Work-heading text-center">Our Work</h2>
             <p class="Our-Work-subheading text-center">“Flexible, easy-to-use solutions built for every business — from local shops to global enterprises.”</p>
-           <div class="Our-Work-grid">
-              <div class="card-Our-Work">
-                <img src="Sample1.png" alt="image"> 
-              </div>
-              <div class="card-Our-Work">
-                <img src="Sample2.png" alt="image">
-              </div>
-              <div class="card-Our-Work">
-                <img src="Sample3.png" alt="image">
-              </div>
-              <div class="card-Our-Work">
-                <img src="Sample4.png" alt="image">
-              </div>
-              <div class="card-Our-Work"> 
-                <img src="Sample5.png" alt="image">
-              </div>
-           </div>
+           <div class="Our-Work-grid swiper">
+                 <div class="swiper-wrapper">
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample1.png" alt="image"> 
+                     </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample2.png" alt="image">
+                     </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample3.png" alt="image">
+                     </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample4.png" alt="image">
+                     </div>
+                     <div class="card-Our-Work swiper-slide"> 
+                       <img src="Sample5.png" alt="image">
+                     </div>
+                        <div class="card-Our-Work swiper-slide">
+                            <img src="Sample6png.avif" alt="image">
+                        </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample7png.avif" alt="image">
+                     </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample8png.avif" alt="image">
+                     </div>
+                     <div class="card-Our-Work swiper-slide">
+                        <img src="Sample9.png" alt="image">
+                     </div>
+                        <div class="card-Our-Work swiper-slide">
+                            <img src="Sample10.png" alt="image">
+                        </div>
+                    </div>
+              
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                </div>
+             </div>
            <h2 class="Our-Work-heading text-center">Do you like what you see?</p>
         </div>
 
@@ -194,7 +218,8 @@
             </div>
         </Div>
     </section>
-
+ <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
     <footer>
     <small>© 2025 PitchPerfectly ZA Pty. All rights reserved.</small>
     <nav>
