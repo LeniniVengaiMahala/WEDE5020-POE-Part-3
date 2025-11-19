@@ -65,12 +65,14 @@ img {
 /* hamburger button*/
 
 
+
 .hamburger-button {
     display: none;
     background: none;
     border: none;
     cursor: pointer;
     padding: 10px;
+    margin-right: 10px;
     z-index: 1000;
 
 }
@@ -86,7 +88,7 @@ img {
     position: fixed;
     top: 0;
     right: 0;
-    width: 400px;
+    width: 350px;
     height: 100vh;
     z-index: 999;
     background: rgba(255, 255, 255, 0.2);
@@ -635,7 +637,7 @@ img:hover {
       } 
 }
 
-@media (max-width: 670px) {
+@media (max-width: 750px) {
 .navbar .main-menu {
     display: none;
 }
