@@ -34,3 +34,9 @@ const swiper = new Swiper('.swiper', {
       },
     }
   });
+function showSidebar() {
+  document.querySelector('.mobile-nav-links').style.display = 'flex';
+}
+function hideSidebar() {
+  document.querySelector('.mobile-nav-links').style.display = 'none';
+}
